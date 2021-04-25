@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="">Add New</a></li>
+            <li><a href="">Done</a></li>
+            <li><a href="">Pending</a></li>
+            <li><a href="">All</a></li>
+        </ul>
+    </nav>
+    <section id="Add New">
+        <form action="">
+            <h2>Add new tasks</h2>
+            <label for="">Task<input type="text"></label>
+            <label for="">Due Date<input type="date"></label>
+            <fieldset>
+                <h3>Current Status</h3>
+                <label for="pending"><input type="radio" value="pending">Pending</label>
+                <label for="started"><input type="radio" value="started">Started</label>
+                <label for="done"><input type="radio" value="done">Done</label>
+            </fieldset>
+            <input type="submit" value="Save Data">
+        </form>
+    </section>
+    <section class="container">
+        <section id="Done"></section>
+        <section id="Pending"></section>
+        <section id="All"></section>
+    </section>
+    <footer>
+        <p>Feel free to copy this work</p>
+        <p><a href="https://github.com/fkinaro/to-do.git">GitHub link</a></p>
+    </footer>
+</body>
+
+</html>
